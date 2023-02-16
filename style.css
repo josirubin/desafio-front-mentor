@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center;
+    position: relative;
+    top: 250px;
+    right: 350px;
+    width: 150px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.cartao {
+    background-color: hsl(0, 0%, 100%);
+    width: 600px;
+    height: 454px;
+    border-radius: 15px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    max-width: 500px;
+    max-height: 454px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.informacoes {
+    position: absolute;
+    left: 320px;
+    bottom: 100px;
+    font-size: 14px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 4px;
+}
+
+.descricao {
+    color: hsl(228, 12%, 48%);
+    width: 240px;
+    line-height: 20px;
+}
+
+h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    line-height: 40px;
+}
+
+.preco-final {
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    position: absolute;
+}
+
+.preco-inicial {
+    position: absolute;
+    left: 170px;
+    bottom: 15px;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    width: 250px;
+    position: relative;
+    top: 80px;
+}
